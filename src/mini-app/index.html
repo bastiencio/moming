@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoMing Kombucha Venues</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .brand-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .venue-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .venue-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .language-toggle {
+            transition: all 0.3s ease;
+        }
+        
+        .language-toggle:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-amber-50">
+    <div id="app" class="min-h-screen">
+        <!-- Header -->
+        <header class="bg-gradient-to-r from-amber-700 to-amber-900 text-white py-8">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-center md:text-left mb-4 md:mb-0">
+                        <h1 class="text-3xl md:text-4xl font-bold brand-font">MoMing Kombucha</h1>
+                        <p class="text-amber-200 mt-2">Discover our brand presence</p>
+                    </div>
+                    <div class="flex space-x-4">
+                        <button id="en-btn" class="language-toggle px-4 py-2 bg-amber-600 hover:bg-amber-500 rounded-lg font-medium">English</button>
+                        <button id="zh-btn" class="language-toggle px-4 py-2 bg-amber-800 hover:bg-amber-700 rounded-lg font-medium">中文</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="container mx-auto px-4 py-8">
+            <div class="text-center mb-10">
+                <h2 id="venues-title" class="text-3xl font-bold text-amber-900 mb-2">Our Venues</h2>
+                <p id="venues-subtitle" class="text-gray-600 max-w-2xl mx-auto">
+                    Discover the locations where you can experience MoMing Kombucha
+                </p>
+            </div>
+
+            <!-- Loading State -->
+            <div id="loading" class="text-center py-12">
+                <div class="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-amber-600"></div>
+                <p class="mt-4 text-gray-600">Loading venues...</p>
+            </div>
+
+            <!-- Error State -->
+            <div id="error" class="hidden text-center py-12">
+                <i class="fas fa-exclamation-triangle text-4xl text-red-500 mb-4"></i>
+                <p class="text-gray-700 text-lg">Failed to load venues. Please try again later.</p>
+                <button id="retry-btn" class="mt-4 px-6 py-2 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition">Retry</button>
+            </div>
+
+            <!-- Venues Grid -->
+            <div id="venues-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Venues will be dynamically inserted here -->
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-amber-800 text-white py-8 mt-12">
+            <div class="container mx-auto px-4 text-center">
+                <p>&copy; 2025 MoMing Kombucha. All rights reserved.</p>
+                <p class="mt-2 text-amber-200">Crafted with care in China</p>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module">
+        // Supabase configuration
+        const SUPABASE_URL = 'https://ubnijvfhtmlrnbhoggba.supabase.co';
+        const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVibmlqdmZodG1scm5iaG9nZ2JhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk0MTUwMDcsImV4cCI6MjA3NDk5MTAwN30.aCR2IIA8PdvG6tcwszRN8H60UoF0zKWN6jrTy_qbyfE';
+        
+        // DOM Elements
+        const enBtn = document.getElementById('en-btn');
+        const zhBtn = document.getElementById('zh-btn');
+        const venuesTitle = document.getElementById('venues-title');
+        const venuesSubtitle = document.getElementById('venues-subtitle');
+        const loadingEl = document.getElementById('loading');
+        const errorEl = document.getElementById('error');
+        const venuesContainer = document.getElementById('venues-container');
+        const retryBtn = document.getElementById('retry-btn');
+        
+        // State
+        let currentLanguage = 'en';
+        let venues = [];
+        
+        // Initialize Supabase client
+        import('https://cdn.skypack.dev/@supabase/supabase-js').then(({ createClient }) => {
+            const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+            
+            // Language texts
+            const translations = {
+                en: {
+                    title: "Our Venues",
+                    subtitle: "Discover the locations where you can experience MoMing Kombucha",
+                    loading: "Loading venues...",
+                    error: "Failed to load venues. Please try again later.",
+                    retry: "Retry",
+                    active: "Active",
+                    inactive: "Inactive",
+                    country: "Country",
+                    city: "City",
+                    location: "Location",
+                    description: "Description"
+                },
+                zh: {
+                    title: "我们的场所",
+                    subtitle: "发现您可以体验 MoMing 康普茶的地点",
+                    loading: "加载场所...",
+                    error: "加载场所失败。请稍后再试。",
+                    retry: "重试",
+                    active: "活跃",
+                    inactive: "不活跃",
+                    country: "国家",
+                    city: "城市",
+                    location: "位置",
+                    description: "描述"
+                }
+            };
+            
+            // Update UI based on language
+            function updateLanguage() {
+                venuesTitle.textContent = translations[currentLanguage].title;
+                venuesSubtitle.textContent = translations[currentLanguage].subtitle;
+                loadingEl.querySelector('p').textContent = translations[currentLanguage].loading;
+                errorEl.querySelector('p').textContent = translations[currentLanguage].error;
+                errorEl.querySelector('button').textContent = translations[currentLanguage].retry;
+                
+                // Update venue cards
+                renderVenues();
+            }
+            
+            // Fetch venues from Supabase
+            async function fetchVenues() {
+                try {
+                    loadingEl.classList.remove('hidden');
+                    errorEl.classList.add('hidden');
+                    venuesContainer.innerHTML = '';
+                    
+                    const { data, error } = await supabase
+                        .from('venues')
+                        .select('*')
+                        .eq('active', true)
+                        .order('created_at', { ascending: false });
+                    
+                    if (error) throw error;
+                    
+                    venues = data || [];
+                    renderVenues();
+                } catch (error) {
+                    console.error('Error fetching venues:', error);
+                    loadingEl.classList.add('hidden');
+                    errorEl.classList.remove('hidden');
+                }
+            }
+            
+            // Render venues
+            function renderVenues() {
+                loadingEl.classList.add('hidden');
+                
+                if (venues.length === 0) {
+                    venuesContainer.innerHTML = `
+                        <div class="col-span-full text-center py-12">
+                            <i class="fas fa-store-slash text-4xl text-gray-400 mb-4"></i>
+                            <p class="text-gray-600 text-lg">
+                                ${currentLanguage === 'en' ? 'No venues found' : '未找到场所'}
+                            </p>
+                        </div>
+                    `;
+                    return;
+                }
+                
+                venuesContainer.innerHTML = venues.map(venue => `
+                    <div class="venue-card bg-white rounded-xl overflow-hidden shadow-lg">
+                        ${venue.picture_url ? `
+                            <div class="h-48 overflow-hidden">
+                                <img src="${venue.picture_url}" 
+                                     alt="${currentLanguage === 'en' ? venue.name_en : (venue.name_zh || venue.name_en)}" 
+                                     class="w-full h-full object-cover">
+                            </div>
+                        ` : `
+                            <div class="h-48 bg-amber-100 flex items-center justify-center">
+                                <i class="fas fa-store text-4xl text-amber-400"></i>
+                            </div>
+                        `}
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <h3 class="text-xl font-bold text-gray-800 brand-font">
+                                    ${currentLanguage === 'en' ? venue.name_en : (venue.name_zh || venue.name_en)}
+                                </h3>
+                                <span class="px-2 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">
+                                    ${translations[currentLanguage].active}
+                                </span>
+                            </div>
+                            
+                            <div class="mt-4 space-y-2">
+                                <div class="flex items-center text-gray-600">
+                                    <i class="fas fa-map-marker-alt mr-2 text-amber-600"></i>
+                                    <span>${venue.city}, ${venue.country}</span>
+                                </div>
+                                
+                                ${venue.location ? `
+                                    <div class="flex items-start text-gray-600">
+                                        <i class="fas fa-location-arrow mr-2 mt-1 text-amber-600"></i>
+                                        <span>${venue.location}</span>
+                                    </div>
+                                ` : ''}
+                                
+                                ${venue.description_en || venue.description_zh ? `
+                                    <div class="pt-3">
+                                        <p class="text-gray-700 text-sm">
+                                            ${currentLanguage === 'en' ? (venue.description_en || venue.description_zh) : (venue.description_zh || venue.description_en)}
+                                        </p>
+                                    </div>
+                                ` : ''}
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+            
+            // Event Listeners
+            enBtn.addEventListener('click', () => {
+                currentLanguage = 'en';
+                enBtn.classList.remove('bg-amber-800');
+                enBtn.classList.add('bg-amber-600');
+                zhBtn.classList.remove('bg-amber-600');
+                zhBtn.classList.add('bg-amber-800');
+                updateLanguage();
+            });
+            
+            zhBtn.addEventListener('click', () => {
+                currentLanguage = 'zh';
+                zhBtn.classList.remove('bg-amber-800');
+                zhBtn.classList.add('bg-amber-600');
+                enBtn.classList.remove('bg-amber-600');
+                enBtn.classList.add('bg-amber-800');
+                updateLanguage();
+            });
+            
+            retryBtn.addEventListener('click', fetchVenues);
+            
+            // Initialize
+            fetchVenues();
+        }).catch(error => {
+            console.error('Failed to load Supabase client:', error);
+            loadingEl.classList.add('hidden');
+            errorEl.classList.remove('hidden');
+        });
+    </script>
+</body>
+</html>

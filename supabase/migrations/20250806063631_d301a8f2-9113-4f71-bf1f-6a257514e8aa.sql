@@ -1,0 +1,1 @@
+ALTER TABLE public.clients DROP COLUMN contact_tel;

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supabase Test</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <div style="padding: 2rem; font-family: Arial, sans-serif;">
+        <h1>Supabase Connection Test</h1>
+        <button id="testBtn" onclick="testSupabase()">Test Connection</button>
+        <div id="result" style="margin-top: 1rem; padding: 1rem; background: #f0f0f0; border-radius: 4px;"></div>
+    </div>
+
+    <script>
+        async function testSupabase() {
+            const resultDiv = document.getElementById('result');
+            const testBtn = document.getElementById('testBtn');
+            
+            testBtn.disabled = true;
+            testBtn.textContent = 'Testing...';
+            resultDiv.innerHTML = '<p>Connecting to Supabase...</p>';
+            
+            try {
+                // Initialize Supabase client
+                const supabase = supabase.createClient(
+                    "https://ubnijvfhtmlrnbhoggba.supabase.co",
+                    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVibmlqdmZodG1scm5iaG9nZ2JhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk0MTUwMDcsImV4cCI6MjA3NDk5MTAwN30.aCR2IIA8PdvG6tcwszRN8H60UoF0zKWN6jrTy_qbyfE"
+                );
+                
+                resultDiv.innerHTML += '<p>Client initialized. Fetching venues...</p>';
+                
+                // Test fetching venues
+                const { data, error } = await supabase
+                    .from('venues')
+                    .select('*')
+                    .eq('active', true)
+                    .limit(3);
+
+                if (error) throw error;
+                
+                resultDiv.innerHTML = `
+                    <h2 style="color: green;">Success!</h2>
+                    <p>Found ${data.length} active venues:</p>
+                    <ul>
+                        ${data.map(venue => `
+                            <li>
+                                <strong>${venue.name_en}</strong> (${venue.city})
+                                <br><small>${venue.location || 'No location'}</small>
+                            </li>
+                        `).join('')}
+                    </ul>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <h2 style="color: red;">Error:</h2>
+                    <p><strong>Message:</strong> ${error.message}</p>
+                    <p><strong>Code:</strong> ${error.code || 'N/A'}</p>
+                    <pre>${JSON.stringify(error, null, 2)}</pre>
+                `;
+                console.error('Supabase error:', error);
+            } finally {
+                testBtn.disabled = false;
+                testBtn.textContent = 'Test Connection';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,513 @@
+{
+  "CONSTANTS": {
+    "ABOUT_SECTIONS": {
+      "cocktails": {
+        "content": {
+          "en": "Marcia began with experimental tastings, exploring how kombucha's acidity, probiotics, and unique flavors could enhance cocktails while adding a healthy twist. Kombucha's natural fermentation created depth and complexity that traditional mixers couldn't achieve.\n\nTogether, Marcia, many of the best bartenders and Coffee Barista from all over China developed nearly 100 original kombucha cocktail recipes, ranging from refreshing daytime drinks to complex technical cocktails.\n\nMarcia\u2019s work culminated in the publication of \"The Kombucha Cocktail Book\" - the first comprehensive guide to mixing with fermented tea.\n\nThe book features recipes that showcase each MoMing flavor, from the floral elegance of Jasmine Green Tea cocktails to the bold complexity of the Cuv\u00e9e Flori.\n\nThis collaboration has positioned MoMing at the forefront of the craft cocktail movement in China and around the world, proving that healthy and delicious are not mutually exclusive.",
+          "zh": "Marcia\u4ece\u5b9e\u9a8c\u6027\u54c1\u5c1d\u5f00\u59cb\uff0c\u63a2\u7d22\u5eb7\u666e\u8336\u7684\u9178\u5ea6\u3001\u76ca\u751f\u83cc\u548c\u72ec\u7279\u7684\u98ce\u5473\u5982\u4f55\u589e\u5f3a\u9e21\u5c3e\u9152\uff0c\u540c\u65f6\u589e\u52a0\u5065\u5eb7\u7684\u98ce\u5473\u3002\u5eb7\u666e\u8336\u7684\u81ea\u7136\u53d1\u9175\u521b\u9020\u4e86\u4f20\u7edf\u6df7\u5408\u5668\u65e0\u6cd5\u8fbe\u5230\u7684\u6df1\u5ea6\u548c\u590d\u6742\u6027\u3002\n\nMarcia\uff0c\u8bb8\u591a\u6765\u81ea\u4e2d\u56fd\u5404\u5730\u7684\u6700\u4f73\u8c03\u9152\u5e08\u548c\u5496\u5561\u5e08\u5171\u540c\u5f00\u53d1\u4e86\u8fd1100\u79cd\u539f\u521b\u5eb7\u666e\u8336\u9e21\u5c3e\u9152\u914d\u65b9\uff0c\u4ece\u6e05\u723d\u7684\u65e5\u95f4\u996e\u6599\u5230\u590d\u6742\u7684\u6280\u672f\u9e21\u5c3e\u9152\u3002\n\nMarcia\u7684\u5de5\u4f5c\u6700\u7ec8\u51fa\u7248\u4e86\u300a\u5eb7\u666e\u8336\u9e21\u5c3e\u9152\u4e66\u300b\u2014\u2014\u8fd9\u662f\u7b2c\u4e00\u672c\u4e0e\u53d1\u9175\u8336\u6df7\u5408\u7684\u7efc\u5408\u6307\u5357\u3002\n\n\u8fd9\u672c\u4e66\u7684\u98df\u8c31\u5c55\u793a\u4e86\u6bcf\u79cdMoMing\u53e3\u5473\uff0c\u4ece\u8309\u8389\u7eff\u8336\u9e21\u5c3e\u9152\u7684\u82b1\u9999\u4f18\u96c5\u5230Cuv\u00e9e Flori\u7684\u5927\u80c6\u590d\u6742\u6027\u3002\n\n\u8fd9\u9879\u5408\u4f5c\u4f7fMoMing\u5904\u4e8e\u4e2d\u56fd\u548c\u4e16\u754c\u5404\u5730\u7684\u624b\u5de5\u9e21\u5c3e\u9152\u8fd0\u52a8\u7684\u6700\u524d\u6cbf\uff0c\u8bc1\u660e\u4e86\u5065\u5eb7\u548c\u7f8e\u5473\u5e76\u4e0d\u76f8\u4e92\u6392\u65a5\u3002"
+        },
+        "imageKeys": [
+          "cocktails_1",
+          "cocktails_2",
+          "cocktails_3"
+        ],
+        "title": {
+          "en": "Kombucha Cocktails & Hope & Sesame",
+          "zh": "\u5eb7\u666e\u8336\u9e21\u5c3e\u9152\u4e0eHope & Sesame"
+        }
+      },
+      "founder": {
+        "content": {
+          "en": "In China\u2019s Northwest, where winters plunge to -30\u00b0C, fermentation was never just preservation, it was resilience. Marcia Xiao\u2019s grandmother brewed Hong Cha Jun (kombucha) not as a trend, but as ancestral tradition: \"We drank it to thrive, not just to hydrate.\"\n\nIn 2018, as co-founder of Asia\u2019s legendary Hope & Sesame bar, Marcia spotted a void: Beverages that offered the sensory sophistication of craft cocktails and the grounded well-being of tradition\u2014without compromise.\n\nThus, MoMing was born: a living bridge between 2,000-year-old fermentation wisdom and the modern pursuit of balanced vitality.",
+          "zh": "\u5728\u4e2d\u56fd\u897f\u5317\u90e8\uff0c\u51ac\u5b63\u964d\u81f3-30\u00b0C\uff0c\u53d1\u9175\u4e0d\u4ec5\u4ec5\u662f\u4fdd\u5b58\uff0c\u800c\u662f\u590d\u539f\u529b\u3002Marcia Xiao\u7684\u7956\u6bcd\u917f\u9020 Hong Cha Jun\uff08\u5eb7\u666e\u8336\uff09\u4e0d\u662f\u4f5c\u4e3a\u4e00\u79cd\u8d8b\u52bf\uff0c\u800c\u662f\u4f5c\u4e3a\u7956\u5148\u7684\u4f20\u7edf\uff1a\u201c\u6211\u4eec\u559d\u5b83\u662f\u4e3a\u4e86\u8301\u58ee\u6210\u957f\uff0c\u800c\u4e0d\u4ec5\u4ec5\u662f\u4e3a\u4e86\u8865\u5145\u6c34\u5206\u3002\u201d\n\n2018\u5e74\uff0c\u4f5c\u4e3a\u4e9a\u6d32\u4f20\u5947\u7684\u5e99\u524d\u51b0\u5ba4\u9152\u5427\u7684\u8054\u5408\u521b\u59cb\u4eba\uff0cMarcia\u53d1\u73b0\u4e86\u4e00\u4e2a\u7a7a\u767d\uff1a\u996e\u6599\u63d0\u4f9b\u4e86\u624b\u5de5\u9e21\u5c3e\u9152\u7684\u611f\u5b98\u7cbe\u81f4\u548c\u4f20\u7edf\u7684\u63a5\u5730\u5e78\u798f\u2014\u2014\u4e0d\u6298\u4e0d\u6263\u3002\n\n\u56e0\u6b64\uff0cMoMing\u8bde\u751f\u4e86\uff1a2000\u5e74\u7684\u53d1\u9175\u667a\u6167\u548c\u73b0\u4ee3\u8ffd\u6c42\u5e73\u8861\u6d3b\u529b\u4e4b\u95f4\u7684\u4e00\u5ea7\u6d3b\u751f\u751f\u7684\u6865\u6881\u3002"
+        },
+        "imageKeys": [
+          "founder_1",
+          "founder_2",
+          "founder_3"
+        ],
+        "title": {
+          "en": "The Founder & Family Legacy",
+          "zh": "\u521b\u59cb\u4eba\u4e0e\u5bb6\u65cf\u4f20\u627f"
+        }
+      },
+      "health": {
+        "content": {
+          "en": "Kombucha is more than just a delicious beverage - it's a functional food that supports overall wellness. The fermentation process creates a rich ecosystem of beneficial bacteria, yeasts, and organic acids that work together to promote digestive health and boost immunity.\n\nThe probiotics in kombucha help maintain a healthy gut microbiome, which is increasingly recognized as crucial for everything from mood regulation to immune function. The organic acids, including acetic acid and gluconic acid, have antimicrobial properties and may help regulate blood sugar levels.\n\nKombucha is also rich in antioxidants from the tea used in fermentation. These compounds help combat oxidative stress and inflammation in the body. The B vitamins produced during fermentation support energy metabolism and nervous system function.\n\nUnlike many commercial beverages, our kombucha contains minimal added sugars - most of the original sugar is consumed by the SCOBY during fermentation, leaving behind a naturally low-sugar, effervescent drink that hydrates without the crash associated with high-sugar beverages.\n\nRegular consumption of quality kombucha like MoMing can be part of a balanced lifestyle that prioritizes gut health, natural energy, and overall vitality.",
+          "zh": "\u5eb7\u666e\u8336\u4e0d\u4ec5\u4ec5\u662f\u4e00\u79cd\u7f8e\u5473\u996e\u54c1\u2014\u2014\u5b83\u662f\u4e00\u79cd\u652f\u6301\u6574\u4f53\u5065\u5eb7\u7684\u529f\u80fd\u6027\u98df\u54c1\u3002\u53d1\u9175\u8fc7\u7a0b\u521b\u9020\u4e86\u4e00\u4e2a\u4e30\u5bcc\u7684\u6709\u76ca\u7ec6\u83cc\u3001\u9175\u6bcd\u548c\u6709\u673a\u9178\u751f\u6001\u7cfb\u7edf\uff0c\u5b83\u4eec\u534f\u540c\u5de5\u4f5c\u4ee5\u4fc3\u8fdb\u6d88\u5316\u5065\u5eb7\u548c\u589e\u5f3a\u514d\u75ab\u529b\u3002\n\n\u5eb7\u666e\u8336\u4e2d\u7684\u76ca\u751f\u83cc\u6709\u52a9\u4e8e\u7ef4\u6301\u5065\u5eb7\u7684\u80a0\u9053\u5fae\u751f\u7269\u7fa4\uff0c\u8fd9\u8d8a\u6765\u8d8a\u88ab\u8ba4\u4e3a\u5bf9\u4ece\u60c5\u7eea\u8c03\u8282\u5230\u514d\u75ab\u529f\u80fd\u7684\u5404\u4e2a\u65b9\u9762\u90fd\u81f3\u5173\u91cd\u8981\u3002\u6709\u673a\u9178\uff0c\u5305\u62ec\u918b\u9178\u548c\u8461\u8404\u7cd6\u9178\uff0c\u5177\u6709\u6297\u83cc\u7279\u6027\uff0c\u53ef\u80fd\u6709\u52a9\u4e8e\u8c03\u8282\u8840\u7cd6\u6c34\u5e73\u3002\n\n\u5eb7\u666e\u8336\u8fd8\u5bcc\u542b\u6765\u81ea\u53d1\u9175\u8336\u53f6\u7684\u6297\u6c27\u5316\u5242\u3002\u8fd9\u4e9b\u5316\u5408\u7269\u6709\u52a9\u4e8e\u5bf9\u6297\u4f53\u5185\u7684\u6c27\u5316\u5e94\u6fc0\u548c\u708e\u75c7\u3002\u53d1\u9175\u8fc7\u7a0b\u4e2d\u4ea7\u751f\u7684B\u65cf\u7ef4\u751f\u7d20\u652f\u6301\u80fd\u91cf\u4ee3\u8c22\u548c\u795e\u7ecf\u7cfb\u7edf\u529f\u80fd\u3002\n\n\u4e0e\u8bb8\u591a\u5546\u4e1a\u996e\u6599\u4e0d\u540c\uff0c\u6211\u4eec\u7684\u5eb7\u666e\u8336\u542b\u6709\u6700\u5c11\u7684\u6dfb\u52a0\u7cd6\u2014\u2014\u5927\u90e8\u5206\u539f\u59cb\u7cd6\u5206\u5728\u53d1\u9175\u8fc7\u7a0b\u4e2d\u88abSCOBY\u6d88\u8017\uff0c\u7559\u4e0b\u5929\u7136\u4f4e\u7cd6\u3001\u6709\u6c14\u6ce1\u7684\u996e\u54c1\uff0c\u65e2\u80fd\u8865\u6c34\u53c8\u4e0d\u4f1a\u50cf\u9ad8\u7cd6\u996e\u6599\u90a3\u6837\u5bfc\u81f4\u80fd\u91cf\u9aa4\u964d\u3002\n\n\u5b9a\u671f\u996e\u7528\u50cf\u83ab\u8317\u8fd9\u6837\u7684\u4f18\u8d28\u5eb7\u666e\u8336\uff0c\u53ef\u4ee5\u6210\u4e3a\u4f18\u5148\u8003\u8651\u80a0\u9053\u5065\u5eb7\u3001\u5929\u7136\u80fd\u91cf\u548c\u6574\u4f53\u6d3b\u529b\u7684\u5e73\u8861\u751f\u6d3b\u65b9\u5f0f\u7684\u4e00\u90e8\u5206\u3002"
+        },
+        "imageKeys": [
+          "health_1",
+          "health_2",
+          "health_3"
+        ],
+        "title": {
+          "en": "The Health Benefits of Kombucha",
+          "zh": "\u5eb7\u666e\u8336\u7684\u5065\u5eb7\u76ca\u5904"
+        }
+      },
+      "lab": {
+        "content": {
+          "en": "Rather than relying on industrial flavoring companies, MoMing operates its own fermentation laboratory where we develop and perfect our unique flavor profiles. Our lab is a place of constant experimentation and learning, where traditional wisdom meets modern precision.\n\nOur team of fermentation specialists works with small batches, carefully monitoring temperature, pH levels, and fermentation timing to achieve the perfect balance of flavor, effervescence, and beneficial probiotics. We source our ingredients directly from tea gardens and organic farms, ensuring the highest quality and traceability.\n\nThe lab serves as both a research facility and an educational space. We regularly host workshops and tastings where visitors can learn about the fermentation process firsthand. From understanding how different tea varieties affect flavor development to observing the living SCOBY cultures in action, our lab demystifies the ancient art of fermentation.\n\nThis hands-on approach allows us to maintain complete control over our quality while continuously innovating. Every bottle of MoMing kombucha represents countless hours of experimentation, refinement, and dedication to the craft.",
+          "zh": "\u83ab\u8317\u6ca1\u6709\u4f9d\u8d56\u5de5\u4e1a\u8c03\u5473\u516c\u53f8\uff0c\u800c\u662f\u8fd0\u8425\u7740\u81ea\u5df1\u7684\u53d1\u9175\u5b9e\u9a8c\u5ba4\uff0c\u5728\u8fd9\u91cc\u6211\u4eec\u5f00\u53d1\u548c\u5b8c\u5584\u72ec\u7279\u7684\u98ce\u5473\u7279\u5f81\u3002\u6211\u4eec\u7684\u5b9e\u9a8c\u5ba4\u662f\u4e0d\u65ad\u5b9e\u9a8c\u548c\u5b66\u4e60\u7684\u5730\u65b9\uff0c\u4f20\u7edf\u667a\u6167\u4e0e\u73b0\u4ee3\u7cbe\u51c6\u5728\u6b64\u76f8\u9047\u3002\n\n\u6211\u4eec\u7684\u53d1\u9175\u4e13\u5bb6\u56e2\u961f\u91c7\u7528\u5c0f\u6279\u91cf\u751f\u4ea7\uff0c\u4ed4\u7ec6\u76d1\u63a7\u6e29\u5ea6\u3001pH\u503c\u548c\u53d1\u9175\u65f6\u95f4\uff0c\u4ee5\u5b9e\u73b0\u98ce\u5473\u3001\u6c14\u6ce1\u548c\u6709\u76ca\u76ca\u751f\u83cc\u7684\u5b8c\u7f8e\u5e73\u8861\u3002\u6211\u4eec\u76f4\u63a5\u4ece\u8336\u56ed\u548c\u6709\u673a\u519c\u573a\u91c7\u8d2d\u539f\u6599\uff0c\u786e\u4fdd\u6700\u9ad8\u7684\u8d28\u91cf\u548c\u53ef\u8ffd\u6eaf\u6027\u3002\n\n\u5b9e\u9a8c\u5ba4\u65e2\u662f\u7814\u7a76\u8bbe\u65bd\uff0c\u4e5f\u662f\u6559\u80b2\u7a7a\u95f4\u3002\u6211\u4eec\u5b9a\u671f\u4e3e\u529e\u5de5\u4f5c\u574a\u548c\u54c1\u9274\u4f1a\uff0c\u8ba9\u8bbf\u5ba2\u4eb2\u8eab\u4e86\u89e3\u53d1\u9175\u8fc7\u7a0b\u3002\u4ece\u7406\u89e3\u4e0d\u540c\u8336\u53f6\u54c1\u79cd\u5982\u4f55\u5f71\u54cd\u98ce\u5473\u53d1\u5c55\uff0c\u5230\u89c2\u5bdf\u6d3b\u8dc3\u7684SCOBY\u57f9\u517b\u7269\uff0c\u6211\u4eec\u7684\u5b9e\u9a8c\u5ba4\u63ed\u5f00\u4e86\u53e4\u8001\u53d1\u9175\u827a\u672f\u7684\u795e\u79d8\u9762\u7eb1\u3002\n\n\u8fd9\u79cd\u4eb2\u529b\u4eb2\u4e3a\u7684\u65b9\u6cd5\u8ba9\u6211\u4eec\u80fd\u591f\u5b8c\u5168\u63a7\u5236\u8d28\u91cf\uff0c\u540c\u65f6\u6301\u7eed\u521b\u65b0\u3002\u6bcf\u4e00\u74f6\u83ab\u8317\u5eb7\u666e\u8336\u90fd\u4ee3\u8868\u7740\u65e0\u6570\u5c0f\u65f6\u7684\u5b9e\u9a8c\u3001\u6539\u8fdb\u548c\u5bf9\u5de5\u827a\u7684\u6267\u7740\u3002"
+        },
+        "imageKeys": [
+          "lab_1",
+          "lab_2",
+          "lab_3"
+        ],
+        "title": {
+          "en": "Our Fermentation Laboratory",
+          "zh": "\u6211\u4eec\u7684\u53d1\u9175\u5b9e\u9a8c\u5ba4"
+        }
+      },
+      "origins": {
+        "content": {
+          "en": "While kombucha has gained global popularity in recent years, its origins trace back over 2,000 years to ancient China, where it was known as \"cha gu\" (\u8336\u83c7) or \"tea mushroom.\" During the Qin Dynasty, this fermented tea was considered an elixir of immortality, reserved for emperors and nobility.\n\nThe symbiotic culture of bacteria and yeast (SCOBY) that creates kombucha was first documented in Chinese medical texts, where it was praised for its digestive and energizing properties. Traditional Chinese medicine recognized fermented foods as essential for maintaining the balance of qi (life energy) in the body.\n\nAs trade routes expanded, kombucha traveled westward, eventually reaching Russia and Eastern Europe, where it became known as \"tea kvass.\" However, the authentic preparation methods and deep understanding of fermentation remained rooted in Chinese tradition.\n\nAt MoMing, we honor this heritage by returning to the source - using traditional Chinese teas and time-honored fermentation techniques that have been refined over millennia.",
+          "zh": "\u867d\u7136\u5eb7\u666e\u8336\u8fd1\u5e74\u6765\u5728\u5168\u7403\u8303\u56f4\u5185\u5e7f\u53d7\u6b22\u8fce\uff0c\u4f46\u5176\u8d77\u6e90\u53ef\u4ee5\u8ffd\u6eaf\u52302000\u591a\u5e74\u524d\u7684\u53e4\u4ee3\u4e2d\u56fd\uff0c\u5f53\u65f6\u88ab\u79f0\u4e3a\"\u8336\u83c7\"\u3002\u5728\u79e6\u671d\uff0c\u8fd9\u79cd\u53d1\u9175\u8336\u88ab\u89c6\u4e3a\u4e0d\u8001\u4ed9\u4e39\uff0c\u4e13\u4f9b\u7687\u5e1d\u548c\u8d35\u65cf\u4eab\u7528\u3002\n\n\u521b\u9020\u5eb7\u666e\u8336\u7684\u7ec6\u83cc\u548c\u9175\u6bcd\u5171\u751f\u57f9\u517b\u7269\uff08SCOBY\uff09\u6700\u65e9\u5728\u4e2d\u56fd\u533b\u5b66\u5178\u7c4d\u4e2d\u6709\u6240\u8bb0\u8f7d\uff0c\u56e0\u5176\u6d88\u5316\u548c\u63d0\u795e\u7684\u529f\u6548\u800c\u5907\u53d7\u63a8\u5d07\u3002\u4f20\u7edf\u4e2d\u533b\u8ba4\u4e3a\u53d1\u9175\u98df\u54c1\u5bf9\u7ef4\u6301\u4f53\u5185\u6c14\uff08\u751f\u547d\u80fd\u91cf\uff09\u7684\u5e73\u8861\u81f3\u5173\u91cd\u8981\u3002\n\n\u968f\u7740\u8d38\u6613\u8def\u7ebf\u7684\u6269\u5c55\uff0c\u5eb7\u666e\u8336\u5411\u897f\u4f20\u64ad\uff0c\u6700\u7ec8\u5230\u8fbe\u4fc4\u7f57\u65af\u548c\u4e1c\u6b27\uff0c\u5728\u90a3\u91cc\u88ab\u79f0\u4e3a\"\u8336\u514b\u74e6\u65af\"\u3002\u7136\u800c\uff0c\u6b63\u5b97\u7684\u5236\u4f5c\u65b9\u6cd5\u548c\u5bf9\u53d1\u9175\u7684\u6df1\u523b\u7406\u89e3\u4ecd\u7136\u6839\u690d\u4e8e\u4e2d\u56fd\u4f20\u7edf\u3002\n\n\u5728\u83ab\u8317\uff0c\u6211\u4eec\u901a\u8fc7\u56de\u5f52\u672c\u6e90\u6765\u81f4\u656c\u8fd9\u4e00\u4f20\u627f\u2014\u2014\u4f7f\u7528\u4f20\u7edf\u4e2d\u56fd\u8336\u53f6\u548c\u7ecf\u8fc7\u5343\u5e74\u5b8c\u5584\u7684\u4f20\u7edf\u53d1\u9175\u6280\u827a\u3002"
+        },
+        "imageKeys": [
+          "origins_1",
+          "origins_2",
+          "origins_3"
+        ],
+        "title": {
+          "en": "Kombucha's Chinese Roots",
+          "zh": "\u5eb7\u666e\u8336\u7684\u4e2d\u56fd\u6839\u6e90"
+        }
+      }
+    },
+    "I18N": {
+      "about": {
+        "description": {
+          "en": "Discover the story behind our brand, our commitment to traditional fermentation, and our vision for the future.",
+          "zh": "\u4e86\u89e3\u6211\u4eec\u54c1\u724c\u80cc\u540e\u7684\u6545\u4e8b\u3001\u5bf9\u4f20\u7edf\u53d1\u9175\u7684\u627f\u8bfa\u4ee5\u53ca\u5bf9\u672a\u6765\u7684\u613f\u666f\u3002"
+        },
+        "sections": {
+          "cocktails": {
+            "en": "Cocktails & Collaboration",
+            "zh": "\u9e21\u5c3e\u9152\u4e0e\u5408\u4f5c"
+          },
+          "founder": {
+            "en": "Founder & Family",
+            "zh": "\u521b\u59cb\u4eba\u4e0e\u5bb6\u65cf"
+          },
+          "health": {
+            "en": "Health Benefits",
+            "zh": "\u5065\u5eb7\u76ca\u5904"
+          },
+          "lab": {
+            "en": "Fermentation Lab",
+            "zh": "\u53d1\u9175\u5b9e\u9a8c\u5ba4"
+          },
+          "origins": {
+            "en": "Chinese Origins",
+            "zh": "\u4e2d\u56fd\u8d77\u6e90"
+          }
+        },
+        "title": {
+          "en": "About MoMing",
+          "zh": "\u5173\u4e8e\u83ab\u8317"
+        }
+      },
+      "collections": {
+        "cuvee": {
+          "description": {
+            "en": "Rare teas in 750ml bottles, crafted for celebration.",
+            "zh": "\u7a00\u6709\u540d\u8336\uff0c750\u6beb\u5347\u74f6\u88c5\uff0c\u4e3a\u503c\u5f97\u5e86\u795d\u7684\u65f6\u523b\u800c\u917f\u3002"
+          },
+          "name": {
+            "en": "The Cuv\u00e9e Collection",
+            "zh": "\u73cd\u917f\u7cfb\u5217"
+          }
+        },
+        "standard": {
+          "description": {
+            "en": "Classic flavors in 230ml bottles, perfect for daily enjoyment.",
+            "zh": "\u7ecf\u5178\u53e3\u5473\uff0c230\u6beb\u5347\u5c0f\u74f6\uff0c\u65e5\u5e38\u7545\u996e\u7684\u7406\u60f3\u4e4b\u9009\u3002"
+          },
+          "name": {
+            "en": "The 230ml Collection",
+            "zh": "230\u6beb\u5347\u7cfb\u5217"
+          }
+        }
+      },
+      "locations": {
+        "cities": {
+          "beijing": {
+            "en": "Beijing",
+            "zh": "\u5317\u4eac"
+          },
+          "chengdu": {
+            "en": "Chengdu",
+            "zh": "\u6210\u90fd"
+          },
+          "guangzhou": {
+            "en": "Guangzhou",
+            "zh": "\u5e7f\u5dde"
+          },
+          "shanghai": {
+            "en": "Shanghai",
+            "zh": "\u4e0a\u6d77"
+          },
+          "shenzhen": {
+            "en": "Shenzhen",
+            "zh": "\u6df1\u5733"
+          }
+        },
+        "description": {
+          "en": "Find our kombucha at these fine establishments across China.",
+          "zh": "\u5728\u4e2d\u56fd\u7684\u8fd9\u4e9b\u4f18\u8d28\u573a\u6240\u627e\u5230\u6211\u4eec\u7684\u5eb7\u666e\u8336\u3002"
+        },
+        "title": {
+          "en": "Where to Find MoMing",
+          "zh": "\u5728\u54ea\u91cc\u627e\u5230\u83ab\u8317"
+        },
+        "venuesIn": {
+          "en": "Venues in",
+          "zh": "\u4f4d\u4e8e"
+        }
+      },
+      "process": {
+        "description": {
+          "en": "Discover the ancient art of kombucha fermentation through our step-by-step visual guide.",
+          "zh": "\u901a\u8fc7\u6211\u4eec\u7684\u5206\u6b65\u89c6\u89c9\u6307\u5357\u63a2\u7d22\u5eb7\u666e\u8336\u53d1\u9175\u7684\u53e4\u8001\u827a\u672f\u3002"
+        },
+        "pause": {
+          "en": "Pause Animation",
+          "zh": "\u6682\u505c\u52a8\u753b"
+        },
+        "play": {
+          "en": "Play Animation",
+          "zh": "\u64ad\u653e\u52a8\u753b"
+        },
+        "stepLabel": {
+          "en": "Step",
+          "zh": "\u6b65\u9aa4"
+        },
+        "title": {
+          "en": "How Kombucha is Made",
+          "zh": "\u5eb7\u666e\u8336\u5236\u4f5c\u5de5\u827a"
+        }
+      },
+      "products": {
+        "cuvee-1": {
+          "description": "\u5357\u7ca4\u82b1\u8bed\u662f\u7531\u7a00\u6709\u7684\u6f6e\u5dde\u51e4\u51f0\u5c71\u4e4c\u9f99\u8336\u4e2d\u7684\u871c\u5170\u9999\u5355\u4e1b\u8336\u4e3a\u8336\u5e95\u6df7\u917f\u8840\u6a59\u3001\u767e\u9999\u679c\u7cbe\u5fc3\u8c03\u914d\u800c\u6210\u3002\u8fd9\u6b3e\u7cbe\u81f4\u7684\u5eb7\u666e\u8336\u4f53\u73b0\u4e86\u5954\u653e\u3001\u660e\u8273\u4e0e\u4e50\u6d3b\u7684\u7cbe\u9ad3\uff0c\u5b8c\u7f8e\u6355\u6349\u4e86\u6211\u4eec\u7684\u6b22\u805a\u65f6\u5149\u3002\n\n\u4e3a\u72ec\u5177\u9274\u8d4f\u529b\u7684\u5c0f\u4f17\u800c\u8bbe\u8ba1\u7684\u4f73\u917f: \u4e13\u4e3a\u73b0\u4ee3\u4eba\u8bbe\u8ba1\uff0c\u4ed6\u4eec\u6ce8\u91cd\u5065\u5eb7\uff0c\u6e34\u671b\u83b7\u5f97\u771f\u6b63\u975e\u51e1\u7684\u996e\u6599\u4f53\u9a8c\u3002\u8fd9\u6b3e\u5145\u6ee1\u6d3b\u529b\u7684\u5eb7\u666e\u8336\u8868\u8fbe\u4e86\u5bf9\u7f8e\u5473\u996e\u98df\u7684\u730e\u5947\u7cbe\u795e\uff0c\u662f\u9ad8\u6863\u9910\u996e\u6216\u5065\u5eb7\u573a\u6240\u7684\u7406\u60f3\u9009\u62e9\uff0c\u5728\u8fd9\u91cc\uff0c\u7f8e\u98df\u5bb6\u4eec\u805a\u96c6\u4e00\u5802\uff0c\u54c1\u5473\u751f\u6d3b\u4e2d\u6700\u7f8e\u597d\u7684\u65f6\u523b\u3002",
+          "fermentation": "\u7b2c\u4e00\u6b21\u7528\u8336\u548c\u7cd6\u53d1\u917527\u5929\uff0c\u4ee5\u786e\u4fdd\u7cd6\u542b\u91cf\u964d\u4f4e\u5230\u51e0\u4e4e\u4e3a\u96f6\uff0c\u5eb7\u666e\u8336\u8fbe\u5230\u6700\u5927\u76ca\u751f\u83cc\u6c34\u5e73\uff0c\u7b2c\u4e8c\u6b21\u53d1\u9175\u6211\u4eec\u52a0\u5165\u679c\u6c41\uff0c\u5728\u74f6\u5b50\u91cc\u53d1\u917548\u5c0f\u65f6",
+          "ingredients": "Milanxiang Dancong\u8336\uff0c\u6765\u81ea\u798f\u5efa\u7684\u767e\u9999\u679c\uff0c\u6765\u81ea\u6c5f\u897f\u7684\u8840\u6a59\uff0c\u8517\u7cd6\uff0c\u6c34\uff0cSCOBY\u6587\u5316",
+          "name": "\u5357\u7ca4\u82b1\u8bed",
+          "tastingNotes": "\u5f53\u5357\u7ca4\u82b1\u8bed\u5728\u60a8\u7684\u5473\u857e\u4e0a\u5c55\u5f00\u65f6\uff0c\u5176\u82b1\u9999\u3001\u8336\u9999\u53ca\u679c\u9999\u5e73\u8861\u4e0e\u5355\u5b81\u548c\u9178\u5ea6\u4e3a\u60a8\u5448\u73b0\u51fa\u4e00\u66f2\u98ce\u5473\u4ea4\u54cd\u4e50\u3002\u8336\u53f6\u5e26\u6765\u660e\u8273\u9999\u6c14\u4f34\u7740\u5fae\u5999\u7684\u9178\u5473\uff0c\u5355\u5b81\u67d4\u548c\uff0c\u6c34\u679c\u5219\u5de7\u5999\u5730\u5e73\u8861\u4e86\u9178\u5ea6\u548c\u98ce\u5473\u3002\u4f59\u5473\u60a0\u957f\uff0c\u5e26\u6709\u5fae\u5999\u7684\u6ce1\u6cab\u3002",
+          "teaDetails": "\u4ea7\u4e8e\u6f6e\u5dde\u51e4\u51f0\u5c71\u4e4c\u5cbd\u9ad8\u6d77\u62d4\u8336\u533a\uff0c\u4f20\u7edf\u6c34\u4ed9\u79cd\uff0c\u4ec5\u7528\u6700\u9876\u90e8\u7684\u4e24\u53f6\u4e00\u82bd\u3002\u5e72\u8336\u4e4c\u8910\u7d27\u7ed3\uff0c\u6cb8\u6c34\u51b2\u65f6\u871c\u751c\u4e0e\u5170\u9999\u4ea4\u7ec7\uff0c\u4f3c\u5e7d\u5170"
+        },
+        "cuvee-2": {
+          "description": "\u897f\u6e56\u79cb\u8272\u7684\u7edd\u7f8e\u65f6\u5149\u51dd\u805a\u6210\u8fd9\u6b3e\u9650\u91cf\u7248\u5eb7\u666e\u8336\u4f73\u917f\uff0c\u8fd9\u662f\u6765\u81ea\u8d8a\u5dde\u9f99\u4e95\u4ea7\u533a\u9f99\u4e95\u8336\u548c\u6842\u82b1\u7684\u5b8c\u7f8e\u878d\u5408\u3002 \u7cbe\u5fc3\u5236\u4f5c\uff0c\u5524\u8d77\u4eba\u4eec\u5bf9\u82b1\u95f4\u897f\u6e56\u5b81\u9759\u7684\u5411\u5f80\u3002\n\n\u4e13\u4e3a\u54c1\u9274\u5e08\u7684\u5473\u857e\u548c\u9ad8\u7ea7\u9910\u5385\u7684\u9ad8\u96c5\u6c1b\u56f4\u800c\u917f\u9020\u3002\u897f\u6e56\u7279\u917f\u4f53\u73b0\u4e86\u7cbe\u81f4\u6de1\u96c5\u7684\u7cbe\u9ad3\uff0c\u4f7f\u5176\u6709\u522b\u4e8e\u4efb\u4f55\u5176\u4ed6\u917f\u9020\u7684\u72ec\u7279\u73cd\u54c1\u3002\u9152\u6807\u662f\u5176\u521b\u59cb\u4eba\u7684\u4e00\u5e45\u753b\uff0c\u5524\u8d77\u4e86\u4e00\u79cd\u81ea\u7531\u548c\u5b81\u9759\u7684\u611f\u89c9\uff0c\u5c06\u60a8\u5e26\u5165\u4e00\u7247\u79c1\u5c5e\u7684\u60ec\u610f\u5e84\u56ed",
+          "fermentation": "\u7b2c\u4e00\u6b21\u7528\u8336\u548c\u7cd6\u53d1\u917527\u5929\uff0c\u4ee5\u786e\u4fdd\u7cd6\u542b\u91cf\u51e0\u4e4e\u964d\u81f3\u96f6\uff0c\u5eb7\u666e\u8336\u8fbe\u5230\u6700\u5927\u76ca\u751f\u83cc\u6c34\u5e73\uff0c\u7b2c\u4e8c\u6b21\u53d1\u9175\u6211\u4eec\u52a0\u5165\u6842\u82b1\u6c34\u548c\u5c11\u91cf\u539f\u7cd6\uff0c\u5728\u74f6\u5b50\u91cc\u53d1\u917548\u5c0f\u65f6",
+          "ingredients": "\u9f99\u4e95\u8336\u548c\u6842\u82b1\uff0c\u7518\u8517\u7cd6\uff0c\u6c34\uff0cSCOBY\u57f9\u517b\uff0c\u81ea\u7136\u53d1\u9175",
+          "name": "\u897f\u6e56\u7279\u917f",
+          "tastingNotes": "\u54c1\u9274\u8bf4\u660e\uff1a\u6e05\u96c5\u7ec6\u817b : \u4ee5\u6842\u82b1\u9999\u4e3a\u524d\u8c03\uff0c\u4e2d\u8c03\u4f34\u6709\u6e05\u6de1\u7684\u7cef\u7c73\u9999\u6c14\u4e0e\u8c46\u8c61\uff0c\u5c3e\u8c03\u99a5\u90c1\u4e0e\u82e6\u751c\u7684\u548c\u8c10\u5e73\u8861\uff0c\u6709\u56de\u7518\u9178\u5ea6\u8f83\u4f4e\uff0c\u8336\u82e6\u4e0e\u5355\u5b81\u67d4\u548c\uff0c\u56de\u5473\u60a0\u957f\u3002",
+          "teaDetails": "\u8d8a\u5dde\u9f99\u4e95\u4ea7\u533a Longjing"
+        },
+        "standard-1": {
+          "description": "\u751c\u871c\u8354\u679d\u4e0e\u82b1\u9999\u8309\u8389\u7684\u4f18\u96c5\u7ed3\u5408\u3002\u8fd9\u8ff7\u4eba\u7684\u7ec4\u5408\u4e3a\u60a8\u63d0\u4f9b\u4e00\u4efd\u6e05\u9999\u4e0e\u8212\u7f13, \u8354\u679d\u6c41\u66f4\u80fd\u4e3a\u60a8\u7684\u8eab\u4f53\u63d0\u4f9b\u5fc5\u8981\u7684\u7ef4\u751f\u7d20\uff0c\u800c\u8309\u8389\u7684\u4f18\u96c5\u9999\u6c14\u7ed9\u4eba\u4ee5\u6e29\u548c\u4e0e\u653e\u677e",
+          "fermentation": "\u91c7\u7528\u4e8c\u6b21\u53d1\u9175\uff0c\u4e00\u6b21\u53d1\u917517\u5929\u5c06\u53d1\u9175\u6db2\u4e2d\u7684\u7cd6\u964d\u4f4e\u81f3\u6700\u4f4e\uff0c\u4e8c\u6b21\u53d1\u9175\u52a0\u5165\u679c\u6c41\u53d1\u917524\u5c0f\u65f6",
+          "ingredients": "\u798f\u5efa\u7684\u8354\u679d\u679c\u6c41\u3001\u56db\u5ddd\u4ea7\u8309\u8389\u7eff\u8336\u3001\u8517\u7cd6\u3001\u6c34\u3001\u4f20\u7edf\u53d1\u9175\u83cc\u79cd\uff0c\u81ea\u7136\u53d1\u9175",
+          "name": "\u8354\u679d\u8309\u8389",
+          "tastingNotes": "\u5170\u82b1\u548c\u8309\u8389\u82b1\u3001\u8354\u679d\u548c\u6325\u4e4b\u4e0d\u53bb\u7684\u82b1\u9999\u8c03\u3002",
+          "teaDetails": "\u56db\u5ddd\u8309\u8389\u7eff\u8336 - \u9009\u7528\u5ddd\u897f\u5e73\u539f\u7684\u660e\u524d\u70d8\u9752\u7eff\u8336\u4e3a\u80da\uff0c\u914d\u4ee5\u728d\u4e3a\u53bf\u5355\u74e3\u8309\u8389\uff0c\u5176\u82b1\u74e3\u7ea4\u8584\u3001\u9999\u6c14\u6e05\u900f\u5982\u6708\u534e\u3002\u7ecf\u4f20\u7edf\u7aa8\u5236\u540e\uff0c\u5e72\u8336\u7ec6\u7d27\u5300\u6574\u3001\u5ae9\u9ec4\u7eff\u76f8\u95f4\uff0c\u767d\u6beb\u9690\u73b0\u3002\u51b2\u6ce1\u65f6\u82b1\u9999\u9c9c\u7075\u7a7f\u900f\uff0c\u4f3c\u96e8\u540e\u8309\u8389\u56ed\u643a\u9732\u7efd\u653e\uff0c\u8336\u6c64\u6e05\u9ec4\u900f\u4eae"
+        },
+        "standard-2": {
+          "description": "\u4e00\u573a\u6e05\u65b0\u7684\u878d\u5408\uff0c\u9178\u751c\u7684\u67da\u5b50\u9047\u4e0a\u6e05\u51c9\u7684\u8584\u8377\u3002\u8fd9\u8bf1\u4eba\u7684\u7ec4\u5408\u5524\u9192\u5473\u857e\uff0c\u4e3a\u8eab\u4f53\u6ce8\u5165\u6d3b\u529b\u3002\u6bcf\u4e00\u53e3\u90fd\u627f\u8bfa\u7740\u8584\u8377\u7684\u723d\u53e3\u597d\u5473\uff0c\u642d\u914d\u67da\u5b50\u7684\u89e3\u6bd2\u7279\u6027\u3002\u74f6\u4e2d\u771f\u6b63\u7684\u7115\u65b0\u4e4b\u9009\u3002",
+          "fermentation": "\u91c7\u7528\u4e8c\u6b21\u53d1\u9175\uff0c\u4e00\u6b21\u53d1\u917517\u5929\u5c06\u53d1\u9175\u6db2\u4e2d\u7684\u7cd6\u964d\u4f4e\u81f3\u6700\u4f4e\uff0c\u4e8c\u6b21\u53d1\u9175\u52a0\u5165\u679c\u6c41\u53d1\u917524\u5c0f\u65f6",
+          "ingredients": "\u67da\u5b50\u6765\u81ea\u798f\u5efa\uff0c\u8584\u8377\u6765\u81ea\u5e7f\u897f\uff0c\u8517\u7cd6\uff0c\u6c34\uff0cSCOBY\u57f9\u517b\uff0c\u81ea\u7136\u53d1\u9175",
+          "name": "\u67da\u5b50\u8584\u8377",
+          "tastingNotes": "\u524d\u8c03\u6d53\u90c1\u7684\u9ed1\u80e1\u6912\u8584\u8377\u7684\u6e05\u723d\uff0c\u540e\u8c03\u6e05\u723d\u5e72\u51c0\u6709\u67da\u5b50\u56de\u7518",
+          "teaDetails": "\u56db\u5ddd\u8309\u8389\u82b1\u8336"
+        },
+        "standard-3": {
+          "description": "\u8fd9\u6b3e\u5145\u6ee1\u6d3b\u529b\u7684\u996e\u6599\u53d7\u5230\u4e86\u5df4\u5398\u5c9b\u201cJamu\u201d\u6392\u6bd2\u996e\u7684\u542f\u53d1\uff0c\u6709\u6548\u5524\u9192\u4f60\u7684\u8eab\u4f53\u3002\u996e\u7528\u65f6\u53ef\u4ee5\u611f\u53d7\u5230\u653e\u677e\u4e0e\u751f\u547d\u529b\uff0c\u8ba9\u8fd9\u6b3e\u91d1\u8272\u7684\u8349\u672c\u996e\u54c1\u5524\u9192\u4f60\u7684\u6d3b\u529b\u5427\u3002",
+          "fermentation": "\u91c7\u7528\u4e8c\u6b21\u53d1\u9175\uff0c\u4e00\u6b21\u53d1\u917517\u5929\u5c06\u53d1\u9175\u6db2\u4e2d\u7684\u7cd6\u964d\u4f4e\u81f3\u6700\u4f4e\uff0c\u4e8c\u6b21\u53d1\u9175\u52a0\u5165\u59dc\u9ec4\u67e0\u6aac\u8349\u53d1\u917524\u5c0f\u65f6",
+          "ingredients": "\u59dc\u9ec4\u6765\u81ea\u5e7f\u897f\uff0c\u67e0\u6aac\u8349\u6765\u81ea\u5e7f\u897f\uff0c\u8517\u7cd6\uff0c\u6cc9\u6c34\uff0cSCOBY\u57f9\u517b\uff0c\u7528\u5929\u71360\u5361\u8def\u91cc\u751c\u5473\u5242\u751c\u5316\u81ea\u7136\u53d1\u9175\u3002",
+          "name": "\u59dc\u9ec4\u67e0\u6aac\u8349",
+          "tastingNotes": "\u6d3b\u8dc3\u7684\u59dc\u9ec4\u7684\u6ce5\u571f\u9999\u4e0e\u9999\u8305\u7684\u6d3b\u529b\u76f8\u878d\u5408\u3001\u65e0\u8517\u7cd6\u3001\u53e3\u5473\u504f\u5e72",
+          "teaDetails": "\u56db\u5ddd\u8309\u8389\u7eff\u8336"
+        },
+        "standard-4": {
+          "description": "\u5e7f\u4e1c\u9999\u751c\u6e05\u723d\u7684\u83e0\u841d\u9047\u89c1\u4e86\u65b0\u7586\u7684\u6de1\u7d2b\u6d53\u9999\u7684\u85b0\u8863\u8349\uff0c\u4e00\u5357\u4e00\u5317\u5374\u78b0\u649e\u51fa\u4e0d\u53ef\u601d\u8bae\u7684\u5473\u89c9\u706b\u82b1\u3002\u6c14\u6ce1\u7ef5\u5bc6\u7ec6\u817b\uff0c\u82b1\u9999\u914d\u5408\u6d53\u90c1\u7684\u83e0\u841d\u679c\u9999\u7531\u6c14\u6ce1\u4e00\u8d77\u88ab\u6fc0\u53d1\u51fa\u6765\u3002",
+          "fermentation": "\u91c7\u7528\u4e8c\u6b21\u53d1\u9175\uff0c\u4e00\u6b21\u53d1\u917517\u5929\u5c06\u53d1\u9175\u6db2\u4e2d\u7684\u7cd6\u964d\u4f4e\u81f3\u6700\u4f4e\uff0c\u4e8c\u6b21\u53d1\u9175\u52a0\u5165\u679c\u6c41\u53ca\u85b0\u8863\u8349\u53d1\u917524\u5c0f\u65f6",
+          "ingredients": "\u5e7f\u4e1c\u83e0\u841d\u6c41\u3001\u65b0\u7586\u85b0\u8863\u8349\u53ef\u98df\u7528\u7cbe\u6cb9\uff08\u9999\u7cbe\uff09\u3001\u8517\u7cd6\u3001\u6c34\u3001\u4f20\u7edf\u53d1\u9175\u83cc\u79cd\uff0c\u81ea\u7136\u53d1\u9175",
+          "name": "\u83e0\u841d\u85b0\u8863\u8349",
+          "tastingNotes": "\u524d\u8c03\u6709\u6d53\u90c1\u7684\u85b0\u8863\u8349\u9999\u6c14\uff0c\u4e2d\u8c03\u6709\u6210\u719f\u83e0\u841d\u7684\u9999\u6c14\u53ca\u6e05\u723d\u7684\u9178\uff0c\u5c3e\u8c03\u6709\u7eff\u8336\u7684\u56de\u7518",
+          "teaDetails": "\u56db\u5ddd\u7eff\u8336"
+        }
+      },
+      "ui": {
+        "backToCollection": {
+          "en": "Back to Collection",
+          "zh": "\u8fd4\u56de\u7cfb\u5217"
+        },
+        "backToCollections": {
+          "en": "Back to Collections",
+          "zh": "\u8fd4\u56de\u7cfb\u5217"
+        },
+        "description": {
+          "en": "Description",
+          "zh": "\u4ecb\u7ecd"
+        },
+        "fermentation": {
+          "en": "Fermentation",
+          "zh": "\u53d1\u9175\u5de5\u827a"
+        },
+        "ingredients": {
+          "en": "Ingredients",
+          "zh": "\u914d\u6599"
+        },
+        "overview": {
+          "en": "Overview",
+          "zh": "\u6982\u89c8"
+        },
+        "tagline": {
+          "en": "Discover the art of fermentation with MoMing. A modern interpretation of an ancient tradition.",
+          "zh": "\u63a2\u7d22\u83ab\u8317\u7684\u53d1\u9175\u827a\u672f\u3002\u5bf9\u53e4\u8001\u4f20\u7edf\u7684\u73b0\u4ee3\u8be0\u91ca\u3002"
+        },
+        "tastingNotes": {
+          "en": "Tasting Notes",
+          "zh": "\u98ce\u5473\u54c1\u9274"
+        },
+        "tea": {
+          "en": "The Tea",
+          "zh": "\u8336\u53f6"
+        }
+      }
+    },
+    "KOMBUCHA_PROCESS_STEPS": [
+      {
+        "description": {
+          "en": "Start by brewing a strong, sweet tea using high-quality loose leaf tea. The tea provides nutrients for the SCOBY and determines the final flavor profile. We use organic cane sugar which will be consumed during fermentation.",
+          "zh": "\u9996\u5148\u7528\u4f18\u8d28\u6563\u53f6\u8336\u51b2\u6ce1\u6d53\u90c1\u7684\u751c\u8336\u3002\u8336\u53f6\u4e3aSCOBY\u63d0\u4f9b\u8425\u517b\uff0c\u5e76\u51b3\u5b9a\u6700\u7ec8\u7684\u98ce\u5473\u7279\u5f81\u3002\u6211\u4eec\u4f7f\u7528\u6709\u673a\u8517\u7cd6\uff0c\u5728\u53d1\u9175\u8fc7\u7a0b\u4e2d\u4f1a\u88ab\u6d88\u8017\u3002"
+        },
+        "iconKey": "tea_brewing",
+        "title": {
+          "en": "Brew the Tea",
+          "zh": "\u51b2\u6ce1\u8336\u53f6"
+        }
+      },
+      {
+        "description": {
+          "en": "Allow the sweet tea to cool completely to room temperature. Hot tea would kill the beneficial bacteria and yeast in the SCOBY. This step is crucial for maintaining the health of our fermentation culture.",
+          "zh": "\u8ba9\u751c\u8336\u5b8c\u5168\u51b7\u5374\u81f3\u5ba4\u6e29\u3002\u70ed\u8336\u4f1a\u6740\u6b7bSCOBY\u4e2d\u7684\u6709\u76ca\u7ec6\u83cc\u548c\u9175\u6bcd\u3002\u8fd9\u4e00\u6b65\u5bf9\u7ef4\u6301\u53d1\u9175\u57f9\u517b\u7269\u7684\u5065\u5eb7\u81f3\u5173\u91cd\u8981\u3002"
+        },
+        "iconKey": "cooling_tea",
+        "title": {
+          "en": "Cool the Tea",
+          "zh": "\u51b7\u5374\u8336\u6c64"
+        }
+      },
+      {
+        "description": {
+          "en": "Gently place the SCOBY (Symbiotic Culture of Bacteria and Yeast) into the cooled tea along with some starter liquid from a previous batch. The SCOBY looks like a rubbery pancake and contains the living cultures that will transform the tea.",
+          "zh": "\u8f7b\u8f7b\u5c06SCOBY\uff08\u7ec6\u83cc\u548c\u9175\u6bcd\u5171\u751f\u57f9\u517b\u7269\uff09\u8fde\u540c\u524d\u4e00\u6279\u7684\u542f\u52a8\u6db2\u4e00\u8d77\u653e\u5165\u51b7\u5374\u7684\u8336\u4e2d\u3002SCOBY\u770b\u8d77\u6765\u50cf\u6a61\u80f6\u714e\u997c\uff0c\u542b\u6709\u5c06\u8f6c\u5316\u8336\u53f6\u7684\u6d3b\u6027\u57f9\u517b\u7269\u3002"
+        },
+        "iconKey": "adding_scoby",
+        "title": {
+          "en": "Add the SCOBY",
+          "zh": "\u52a0\u5165SCOBY"
+        }
+      },
+      {
+        "description": {
+          "en": "Cover the jar with a breathable cloth or coffee filter secured with a rubber band. This allows the kombucha to breathe while protecting it from dust, insects, and contaminants. Proper airflow is essential for healthy fermentation.",
+          "zh": "\u7528\u900f\u6c14\u5e03\u6216\u5496\u5561\u6ee4\u7eb8\u8986\u76d6\u7f50\u5b50\uff0c\u7528\u6a61\u76ae\u7b4b\u56fa\u5b9a\u3002\u8fd9\u8ba9\u5eb7\u666e\u8336\u80fd\u591f\u547c\u5438\uff0c\u540c\u65f6\u4fdd\u62a4\u5b83\u514d\u53d7\u7070\u5c18\u3001\u6606\u866b\u548c\u6c61\u67d3\u7269\u7684\u4fb5\u5bb3\u3002\u9002\u5f53\u7684\u7a7a\u6c14\u6d41\u901a\u5bf9\u5065\u5eb7\u53d1\u9175\u81f3\u5173\u91cd\u8981\u3002"
+        },
+        "iconKey": "covering_jar",
+        "title": {
+          "en": "Cover & Protect",
+          "zh": "\u8986\u76d6\u4fdd\u62a4"
+        }
+      },
+      {
+        "description": {
+          "en": "Let the kombucha ferment for 7-14 days at room temperature, away from direct sunlight. During this time, the SCOBY consumes the sugar and produces beneficial acids, probiotics, and a small amount of alcohol. Taste daily after day 5 to monitor progress.",
+          "zh": "\u8ba9\u5eb7\u666e\u8336\u5728\u5ba4\u6e29\u4e0b\u53d1\u91757-14\u5929\uff0c\u907f\u514d\u9633\u5149\u76f4\u5c04\u3002\u5728\u6b64\u671f\u95f4\uff0cSCOBY\u6d88\u8017\u7cd6\u5206\u5e76\u4ea7\u751f\u6709\u76ca\u9178\u7c7b\u3001\u76ca\u751f\u83cc\u548c\u5c11\u91cf\u9152\u7cbe\u3002\u7b2c5\u5929\u540e\u6bcf\u5929\u54c1\u5c1d\u4ee5\u76d1\u63a7\u8fdb\u5c55\u3002"
+        },
+        "iconKey": "fermentation",
+        "title": {
+          "en": "First Fermentation",
+          "zh": "\u7b2c\u4e00\u6b21\u53d1\u9175"
+        }
+      },
+      {
+        "description": {
+          "en": "For our flavored varieties, we add natural ingredients like fresh ginger, hibiscus flowers, or fruit during a second fermentation. This creates unique flavor profiles while maintaining the probiotic benefits of the original kombucha.",
+          "zh": "\u5bf9\u4e8e\u6211\u4eec\u7684\u8c03\u5473\u54c1\u79cd\uff0c\u6211\u4eec\u5728\u7b2c\u4e8c\u6b21\u53d1\u9175\u671f\u95f4\u6dfb\u52a0\u5929\u7136\u6210\u5206\uff0c\u5982\u65b0\u9c9c\u751f\u59dc\u3001\u6728\u69ff\u82b1\u6216\u6c34\u679c\u3002\u8fd9\u521b\u9020\u4e86\u72ec\u7279\u7684\u98ce\u5473\u7279\u5f81\uff0c\u540c\u65f6\u4fdd\u6301\u539f\u59cb\u5eb7\u666e\u8336\u7684\u76ca\u751f\u83cc\u76ca\u5904\u3002"
+        },
+        "iconKey": "flavoring",
+        "title": {
+          "en": "Add Flavoring",
+          "zh": "\u6dfb\u52a0\u8c03\u5473"
+        }
+      },
+      {
+        "description": {
+          "en": "Transfer the kombucha to airtight bottles for a second fermentation that creates natural carbonation. This process takes 2-4 days and gives kombucha its signature fizz. We carefully monitor this stage to achieve the perfect level of effervescence.",
+          "zh": "\u5c06\u5eb7\u666e\u8336\u8f6c\u79fb\u5230\u5bc6\u5c01\u74f6\u4e2d\u8fdb\u884c\u7b2c\u4e8c\u6b21\u53d1\u9175\uff0c\u4ea7\u751f\u5929\u7136\u78b3\u9178\u5316\u3002\u8fd9\u4e2a\u8fc7\u7a0b\u9700\u89812-4\u5929\uff0c\u8d4b\u4e88\u5eb7\u666e\u8336\u5176\u6807\u5fd7\u6027\u7684\u6c14\u6ce1\u3002\u6211\u4eec\u4ed4\u7ec6\u76d1\u63a7\u8fd9\u4e2a\u9636\u6bb5\u4ee5\u8fbe\u5230\u5b8c\u7f8e\u7684\u8d77\u6ce1\u6c34\u5e73\u3002"
+        },
+        "iconKey": "bottling",
+        "title": {
+          "en": "Bottle & Carbonate",
+          "zh": "\u88c5\u74f6\u78b3\u9178\u5316"
+        }
+      },
+      {
+        "description": {
+          "en": "After refrigeration to slow fermentation, your kombucha is ready to drink! Each bottle contains billions of beneficial probiotics, organic acids, and the complex flavors developed through our traditional fermentation process. Enjoy chilled for the best taste experience.",
+          "zh": "\u51b7\u85cf\u51cf\u7f13\u53d1\u9175\u540e\uff0c\u60a8\u7684\u5eb7\u666e\u8336\u5c31\u53ef\u4ee5\u996e\u7528\u4e86\uff01\u6bcf\u74f6\u90fd\u542b\u6709\u6570\u5341\u4ebf\u6709\u76ca\u76ca\u751f\u83cc\u3001\u6709\u673a\u9178\u548c\u901a\u8fc7\u6211\u4eec\u4f20\u7edf\u53d1\u9175\u5de5\u827a\u53d1\u5c55\u7684\u590d\u6742\u98ce\u5473\u3002\u51b7\u996e\u4eab\u53d7\u6700\u4f73\u53e3\u611f\u4f53\u9a8c\u3002"
+        },
+        "iconKey": "ready_to_drink",
+        "title": {
+          "en": "Ready to Enjoy",
+          "zh": "\u51c6\u5907\u4eab\u7528"
+        }
+      }
+    ],
+    "LOCATIONS": {
+      "beijing": [
+        {
+          "address": "404 Chaoyang Rd, Chaoyang District, Beijing",
+          "name": "Bar G"
+        },
+        {
+          "address": "505 Dongcheng St, Dongcheng District, Beijing",
+          "name": "Shop H"
+        }
+      ],
+      "chengdu": [
+        {
+          "address": "606 Jinjiang Rd, Jinjiang District, Chengdu",
+          "name": "Restaurant I"
+        },
+        {
+          "address": "707 Wuhou St, Wuhou District, Chengdu",
+          "name": "Cafe J"
+        }
+      ],
+      "guangzhou": [
+        {
+          "address": "No.48, Miaoqian Xijie, Dongshankou, Yuexiu District, Guangzhou",
+          "name": "Hope & Sesame Guangzhou"
+        },
+        {
+          "address": "789 Tianhe Rd, Tianhe District, Guangzhou",
+          "name": "Cafe C"
+        }
+      ],
+      "shanghai": [
+        {
+          "address": "101 Huangpu Rd, Huangpu District, Shanghai",
+          "name": "Venue D"
+        },
+        {
+          "address": "202 Xuhui St, Xuhui District, Shanghai",
+          "name": "Venue E"
+        },
+        {
+          "address": "303 Jing'an Ave, Jing'an District, Shanghai",
+          "name": "Venue F"
+        }
+      ],
+      "shenzhen": [
+        {
+          "address": "G/F, Shop 11, Seascape Square, Shekou, Shenzhen",
+          "name": "Hope & Sesame Shenzhen"
+        },
+        {
+          "address": "123 Futian Rd, Futian District, Shenzhen",
+          "name": "Bar A"
+        },
+        {
+          "address": "456 Nanshan St, Nanshan District, Shenzhen",
+          "name": "Restaurant B"
+        }
+      ]
+    },
+    "PRODUCTS": {
+      "cuvee": {
+        "description": "A 750ml bottle format, with rare high quality tea and elegant bubbles.",
+        "items": [
+          {
+            "description": "Cuv\u00e9e Flori is a delicious blend of the rare Phoenix mountain Milanxiang Dancong Tea from the Oolong family, blood orange and passion fruit. This exquisite kombucha embodies the essence of vitality and joie de vivre, perfectly capturing the spirit of conviviality that defines our most cherished moments.",
+            "fermentation": "First fermentation with tea and sugar for 27 days, to make sure sugar level reduces to almost zero and kombucha reach to it max probiotic level, second fermentation we add juice and fermented in the bottle for 48 hours",
+            "id": "cuvee-1",
+            "imageKey": "cuvee_yunnan_red",
+            "ingredients": "Milanxiang Dancong Tea, Passion fruit sourced from Fujian, Blood orange sourced from Jiangxi, cane sugar, water, SCOBY culture",
+            "name": "Cuv\u00e9e Flori",
+            "size": "750ml",
+            "tastingNotes": "As Cuv\u00e9e Flori unfolds on your palate, its floral and balanced tannins and acidity reveal a symphony of flavors. The tea brings forth sweet and subtly tart notes, accompanied by soft tannins, while the fruits provide a masterful balance of acidity and flavor. The finish is long lasting with a delicate fizz.",
+            "teaDetails": "Milanxiang Dancong Tea, Originating from the high-altitude tea region of Wuding Mountain in Chaozhou, this is a traditional variety of Water Lily tea, where only the topmost two leaves and a bud are used. The dried tea is dark brown and compact, with a sweet honey-like flavor intertwined with orchid fragrance when steeped in boiling water, reminiscent of a delicate orchid."
+          },
+          {
+            "description": "This limited-edition cuv\u00e9e is an elegant fusion of freshly harvested \u8d8a\u5dde\u9f99\u4e95\u4ea7\u533a Longjing tea and osmanthus flowers, carefully crafted to evoke the serenity of the west lake of Hangzhou.\n\nFor the connoisseur's palate and the refined atmosphere of fine dining establishments. The West Lake Cuv\u00e9e embodies the essence of sophistication, making it a rare and coveted addition to any beverage collection. The label is a painting by its founder, Marcia, evoking a sense of freedom and serenity that transports you to a world of tranquility and a very personal bottle.",
+            "fermentation": "First fermentation with tea and sugar for 27 days, to make sure sugar level reduces to almost zero and kombucha reach to it max probiotic level, second fermentation we add osmanthus flower water and small quantity of raw sugar fermented in the bottle for 48 hours",
+            "id": "cuvee-2",
+            "imageKey": "cuvee_phoenix_oolong",
+            "ingredients": "Longjing tea and osmanthus flowers, cane sugar, water, SCOBY culture, natural fermentation",
+            "name": "Cuv\u00e9e West Lake",
+            "size": "750ml",
+            "tastingNotes": "A harmonious balance of floral and bitter sweet notes, mixed with hint to green bean and sticky rice fragrance. Light acidity, well balanced tannins and a fizzy finish that lingers like the soft rustle of leaves.",
+            "teaDetails": "Premium Longjing Green tea from the Yuezhou Longjing Production Area"
+          }
+        ],
+        "name": "The Cuv\u00e9e Collection"
+      },
+      "standard": {
+        "description": "Our classic line of kombucha in a convenient 230ml format, perfect for any occasion.",
+        "items": [
+          {
+            "description": "This enchanting duo offers a fragrant sip of tranquility. As lychee nourishes your body with vital vitamins, jasmine's soothing properties provide a calm embrace. Experience serenity with every sip.",
+            "fermentation": "MoMing use a two steps fermentation. The sugar in the fermented liquid is slowly been eaten for 17 days in the first fermentation, and the lychee juice is added to the secondary fermentation for 24 hours. Ensuring a very clean taste",
+            "id": "standard-1",
+            "imageKey": "standard_ginger_lemon",
+            "ingredients": "Lychee sourced from Fujian, Jasmin sourced from Sichuan, cane sugar, water, SCOBY culture, natural fermentation",
+            "name": "MoMing Lychee & Jasmin Kombucha",
+            "size": "230ml",
+            "tastingNotes": "Notes of orchid and jasmine flower, lychee, and a lingering floral finish.",
+            "teaDetails": "Sichuan Jasmine Green Tea - It is made of pre-Ming roasted green tea from the western Sichuan Plain as the embryo, with single-petal jasmine. Its petals are thin and the aroma is as clear as the moon flower. After being made in the traditional man, the dry tea is fine and even, tender, yellow and green, and the white hair is faint. When brewing, the fragrance of flowers penetrates, like the jasmine garden blooming with dew after rain, and the tea soup is clear and yellow."
+          },
+          {
+            "description": "Dive into a refreshing fusion where zesty pomelo meets cool mint. This tantalizing blend freshen up the taste buds and invigorates the body. Each sip promises a burst of minty goodness, paired with the detoxifying properties of pomelo. A true rejuvenation in a bottle",
+            "fermentation": "MoMing use a two steps fermentation. The sugar in the fermented liquid is slowly been eaten for 17 days in the first fermentation, and juice is added to the secondary fermentation for 24 hours. Ensuring a very elegant taste",
+            "id": "standard-2",
+            "imageKey": "standard_hibiscus_rose",
+            "ingredients": "Pomelo sourced from fujian, mint sourced from Guangxi, cane sugar, water, SCOBY culture, natural fermentation",
+            "name": "MoMing Pomelo & Mint Kombucha",
+            "size": "230ml",
+            "tastingNotes": "The first note is rich and refreshing with bold black peppermint, and the back note is refreshing and clean with an elegant and citrusy grapefruit aftertaste.",
+            "teaDetails": "Sichuan Jasmine Tea"
+          },
+          {
+            "description": "This vibrant concoction inspired by the Balinese drink \u201cJamu\u201d promises a boost of your body. Sip your way to vitality, and let this golden brew rejuvenate your spirit.",
+            "fermentation": "MoMing use a two steps fermentation. The sugar in the fermented liquid is slowly been eaten for 17 days in the first fermentation, and turmeric and lemongrass are added for the secondary fermentation for 24 hours.",
+            "id": "standard-3",
+            "imageKey": "standard_jasmine_green",
+            "ingredients": "Turmeric sourced from Guangxi, Lemongrass sourced from Guangxi, cane sugar, spring water, SCOBY culture, natural fermentation sweetened with a natural 0-calorie sweetener.",
+            "name": "MoMing Turmeric & Lemongrass Kombucha",
+            "size": "230ml",
+            "tastingNotes": "Earthy notes of active turmeric fused with the zing of lemongrass.",
+            "teaDetails": "Sichuan Jasmine Green Tea"
+          },
+          {
+            "description": "Transport yourself to a tropical paradise with the baked lush sweetness of pineapple complemented by the calming whispers of lavender. This sun-kissed blend is not only tasty but also a balm for the soul.Let its antioxidants and relaxation properties work in harmony, nourishing you inside out",
+            "fermentation": "MoMing use a two steps fermentation. The sugar in the fermented liquid is slowly been eaten for 17 days in the first fermentation, and pineapple juice and lavender are added for the secondary fermentation for 24 hours. Ensuring a very clean taste",
+            "id": "standard-4",
+            "imageKey": "standard_original_black",
+            "ingredients": "Pineapple sourced from Guangdong, Lavender sourced from Xinjiang, cane sugar, water, SCOBY culture, natural fermentation",
+            "name": "MoMing Pineapple & Lavender Kombucha",
+            "size": "230ml",
+            "tastingNotes": "The front note has a strong lavender aroma, the middle note has the aroma of ripe pineapple and refreshing sourness, and the tail note has the sweetness of green tea.",
+            "teaDetails": "Sichuan Green Tea"
+          }
+        ],
+        "name": "The 230ml Collection"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Supabase Connection</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <div style="padding: 2rem;">
+        <h1>Supabase Connection Test</h1>
+        <button onclick="testConnection()">Test Connection</button>
+        <div id="result" style="margin-top: 1rem; padding: 1rem; background: #f0f0f0;"></div>
+    </div>
+
+    <script>
+        // Initialize Supabase client
+        const supabase = supabase.createClient(
+            "https://ubnijvfhtmlrnbhoggba.supabase.co",
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVibmlqdmZodG1scm5iaG9nZ2JhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk0MTUwMDcsImV4cCI6MjA3NDk5MTAwN30.aCR2IIA8PdvG6tcwszRN8H60UoF0zKWN6jrTy_qbyfE"
+        );
+
+        async function testConnection() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = 'Testing connection...';
+            
+            try {
+                const { data, error } = await supabase
+                    .from('venues')
+                    .select('*')
+                    .eq('active', true)
+                    .limit(5);
+
+                if (error) throw error;
+                
+                resultDiv.innerHTML = `
+                    <h3>Success!</h3>
+                    <p>Found ${data.length} venues:</p>
+                    <ul>
+                        ${data.map(venue => `<li>${venue.name_en} (${venue.city})</li>`).join('')}
+                    </ul>
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <h3>Error:</h3>
+                    <p>${error.message}</p>
+                    <pre>${JSON.stringify(error, null, 2)}</pre>
+                `;
+                console.error('Supabase error:', error);
+            }
+        }
+    </script>
+</body>
+</html>

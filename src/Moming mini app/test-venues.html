@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Venues Component</title>
+    <!-- Include Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Include Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <div style="padding: 2rem;">
+        <h1>Venues Component Test</h1>
+        <button onclick="showVenues()">Show Venues</button>
+        <button onclick="hideVenues()">Hide Venues</button>
+        <button onclick="toggleLanguage()">Toggle Language</button>
+    </div>
+    
+    <!-- Container for venues component -->
+    <div id="venues-container"></div>
+    
+    <!-- Include the venues component -->
+    <script src="./venues-component.js"></script>
+    
+    <script>
+        // Test function to toggle language
+        function toggleLanguage() {
+            if (window.venuesComponent) {
+                window.venuesComponent.toggleLanguage();
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoMing Venues Demo</title>
+    <!-- Include Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- Include your venues component -->
+    <script src="./venues-component.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MoMing Kombucha</h1>
+            <p>Discover our brand presence locations</p>
+        </header>
+        
+        <!-- Container for the venues component -->
+        <div id="venues-container"></div>
+        
+        <footer>
+            <p>© 2025 MoMing Kombucha. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px 0;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 20px;
+            color: #95a5a6;
+            border-top: 1px solid #ecf0f1;
+        }
+    </style>
+</body>
+</html>
